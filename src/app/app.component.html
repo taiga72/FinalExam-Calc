@@ -1,0 +1,29 @@
+<div class="base">
+  <h1>CAZIO</h1>
+  <div class="maindisplay">
+    <div class="subdisplay">{{ subDisplayText }}</div>
+      {{ mainDisplayText }}
+  </div>
+  <div class="keypad">
+    <button class="keys ackey" (click)="allClear()">CE</button>
+		<button class="empty"></button>
+		<button class="empty"></button>
+		<button class="keys opkey" (click)="pressKey('/')">&#247;</button>
+		<button class="keys numkey" (click)="pressKey('7')">7</button>
+		<button class="keys numkey" (click)="pressKey('8')">8</button>
+		<button class="keys numkey" (click)="pressKey('9')">9</button>
+		<button class="keys opkey" (click)="pressKey('*')">&times;</button>
+		<button class="keys numkey" (click)="pressKey('4')">4</button>
+		<button class="keys numkey" (click)="pressKey('5')">5</button>
+		<button class="keys numkey" (click)="pressKey('6')">6</button>
+		<button class="keys opkey" (click)="pressKey('-')">-</button>
+		<button class="keys numkey" (click)="pressKey('1')">1</button>
+		<button class="keys numkey" (click)="pressKey('2')">2</button>
+		<button class="keys numkey" (click)="pressKey('3')">3</button>
+		<button class="keys opkey" (click)="pressKey('+')">+</button>
+		<button class="empty"></button>
+		<button class="keys numkey" (click)="pressKey('0')">0</button>
+		<button class="keys numkey" (click)="pressKey('.')">.</button>
+		<button class="keys equalkey" (click)="getAnswer()">=</button>
+    </div>
+</div>

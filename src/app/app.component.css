@@ -1,0 +1,92 @@
+.base {
+	width: 320px;
+	height: 600px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.maindisplay {
+    height: 100px;
+    padding: 5% !important;
+    font-size: 30px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.subdisplay {
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+
+.keypad {
+	height: 300px;
+}
+
+.opkey, .numkey, .empty, .ackey, .equalkey{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+.numkey, .empty{
+	background-color: #eaedef;
+}
+.numkey, .opkey , .ackey, .equalkey{
+	cursor: pointer;
+}
+.opkey:active, .numkey:active, .ackey:active, .equalkey:active{
+	font-size: 13px;
+}
+.opkey:focus, .numkey:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(1){
+	font-size: 20px;
+	background-color: #ec3c2f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #20b2aa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
